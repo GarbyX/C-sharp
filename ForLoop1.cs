@@ -12,10 +12,15 @@ namespace GarbyX
         {
             # for (int x = 0; x < 10; x+=3)
             # The init and increment statements may be left out but the semicolons are mandatory.
+            # -------------------------------
+                
             int x = 10;
-            for ( ; x > 0; x -= 3)
+            # for ( ; x > 0; x -= 3)
+            for ( ; x > 0 ; )
             {
+                # Console.WriteLine(x);
                 Console.WriteLine(x);
+                x -= 3;
             }
         }
     }
@@ -23,8 +28,8 @@ namespace GarbyX
 
 /*
 Code Outputs:
-0
-3
-6
-9
+10
+7
+4
+1
 */
