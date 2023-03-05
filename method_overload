@@ -16,8 +16,8 @@ namespace MyApplication
 
     static void Main(string[] args)
     {
-      int myNum1 = PlusMethodInt(10, 15);
-      double myNum2 = PlusMethodDouble(7.6, 9.45);
+      int myNum1 = PlusMethod1(10, 15);
+      double myNum2 = PlusMethod2(7.6, 9.45);
       Console.WriteLine("Int: " + myNum1);
       Console.WriteLine("Double: " + myNum2);
     }  
@@ -26,7 +26,6 @@ namespace MyApplication
 
 /*
 Outputs:
-prog.cs(19,20): error CS0103: The name `PlusMethodInt' does not exist in the current context
-prog.cs(20,23): error CS0103: The name `PlusMethodDouble' does not exist in the current context
-Compilation failed: 2 error(s), 0 warnings
+Int: 25
+Double: 17.05
 */
