@@ -1,6 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-int P, T;
+namespace GarbyX
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int P, T;
             float R, SI;
             Console.Write("Enter Amount :");
             P = Convert.ToInt32(Console.ReadLine());
@@ -13,3 +23,7 @@ int P, T;
             Console.ReadKey();
  
             Console.ReadLine();
+            
+        }
+    }
+}
